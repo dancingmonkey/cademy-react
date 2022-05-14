@@ -1,5 +1,4 @@
 import React from 'react';
-// import GroceryCart from './components/GroceryCart';
 import EditProfile from './components/EditProfile';
 
 const App = () => {
