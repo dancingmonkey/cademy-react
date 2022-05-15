@@ -1,10 +1,10 @@
 import React from 'react';
-import EditProfile from './components/EditProfile';
+import Tasks from './components/Tasks';
 
 const App = () => {
   return (
     <div className="flex h-screen w-full items-center justify-center text-white">
-      <EditProfile />
+      <Tasks />
     </div>
   );
 };
