@@ -3,7 +3,9 @@ import React from 'react';
 // import Tasks from './components/Tasks';
 // import GroceryCart from './components/GroceryCart';
 // import EditProfile from './components/EditProfile';
-import Counter from './components/Counter';
+// import Counter from './components/Counter';
+// import Timer from './components/Timer';
+import Forecast from './components/Forecast';
 
 const App = () => {
   return (
@@ -12,7 +14,9 @@ const App = () => {
       {/* <Tasks /> */}
       {/* <GroceryCart /> */}
       {/* <EditProfile /> */}
-      <Counter />
+      {/* <Counter /> */}
+      {/* <Timer /> */}
+      <Forecast />
     </div>
   );
 };
