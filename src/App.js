@@ -6,11 +6,12 @@ import React from 'react';
 // import Counter from './components/Counter';
 // import Timer from './components/Timer';
 // import Forecast from './components/Forecast';
-import Shop from './components/Shop';
+// import Shop from './components/Shop';
+import SocialNetwork from './components/SocialNetwork';
 
 const App = () => {
   return (
-    <div className="flex h-screen w-full items-center justify-center text-white">
+    <div className="mx-auto h-screen w-full text-white">
       {/* <Welcome /> */}
       {/* <Tasks /> */}
       {/* <GroceryCart /> */}
@@ -18,7 +19,8 @@ const App = () => {
       {/* <Counter /> */}
       {/* <Timer /> */}
       {/* <Forecast /> */}
-      <Shop />
+      {/* <Shop /> */}
+      <SocialNetwork />
     </div>
   );
 };
