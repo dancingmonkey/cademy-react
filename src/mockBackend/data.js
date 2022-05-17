@@ -5,7 +5,6 @@
 // When building user interfaces, it can be helpful to
 // mock out simplified versions of the data that our code
 // will eventually fetch from backend servers
-
 const getRandomId = () => `${Math.random()}-${Math.random()}`;
 
 const getRandomNumber = (min, range) =>
@@ -42,4 +41,9 @@ const getWeatherItem = () => ({
 export default {
   '/daily': Array.from({ length: 5 }, getWeatherItem),
   '/hourly': Array.from({ length: 24 }, getWeatherItem),
+  '/categories': ['Shirts', 'Pants', 'Shoes', 'Accessories'],
+  '/items?category=Shirts': ['T-Shirts', 'Casual', 'Formal'],
+  '/items?category=Pants': ['Long Pants', 'Sweat Pants', 'Shorts', 'Swimwear'],
+  '/items?category=Shoes': ['Athletic', 'Professional', 'Casual', 'Walking'],
+  '/items?category=Accessories': ['Hats', 'Wallets', 'Belts'],
 };

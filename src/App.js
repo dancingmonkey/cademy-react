@@ -5,7 +5,8 @@ import React from 'react';
 // import EditProfile from './components/EditProfile';
 // import Counter from './components/Counter';
 // import Timer from './components/Timer';
-import Forecast from './components/Forecast';
+// import Forecast from './components/Forecast';
+import Shop from './components/Shop';
 
 const App = () => {
   return (
@@ -16,7 +17,8 @@ const App = () => {
       {/* <EditProfile /> */}
       {/* <Counter /> */}
       {/* <Timer /> */}
-      <Forecast />
+      {/* <Forecast /> */}
+      <Shop />
     </div>
   );
 };
