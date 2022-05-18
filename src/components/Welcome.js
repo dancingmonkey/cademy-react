@@ -3,7 +3,7 @@ import { HomeIcon } from '@heroicons/react/solid';
 
 const info = {
   welcome: 'Welcome',
-  intro: 'Starter template with tailwindcss.',
+  intro: 'This repo contains code used in the free CodeCademy react course, and is configured with tailwindcss for super quick style changes',
   features: [
     'React 18',
     'Prettier-plugin-tailwindcss',
@@ -24,7 +24,7 @@ const Welcome = () => {
         </div>
 
         <hr className="text-secondary" />
-        <p className="mt-4 text-lg first-letter:text-7xl first-letter:font-bold first-letter:text-secondary">
+        <p className="mt-4 text-lg">
           {info.intro}
         </p>
 
