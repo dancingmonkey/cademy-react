@@ -13,5 +13,9 @@ export default function Counter() {
     return setClickCount(prev => prev + 1);
   };
 
-  return <h1>Document Clicks: {clickCount}</h1>;
+  return (
+    <h1 className="mx-auto mt-32 max-w-lg text-center ">
+      Document Clicks: {clickCount}
+    </h1>
+  );
 }

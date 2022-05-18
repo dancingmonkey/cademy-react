@@ -27,7 +27,7 @@ export default function Forecast() {
   }
 
   return (
-    <div className="w-1/2 rounded-md border border-secondary bg-slate-800 p-4">
+    <div className="mx-auto mt-32 w-1/2 max-w-lg rounded-md border border-secondary bg-slate-800 p-4 ">
       <h1 className="text-xl font-bold">My Weather Planner</h1>
       <div className="flex justify-start pt-2 pb-2 text-primary">
         <button

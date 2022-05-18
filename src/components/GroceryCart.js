@@ -18,11 +18,14 @@ export default function GroceryCart() {
   };
 
   return (
-    <div className="max-w-sm bg-primaryDark">
+    <div className="mx-auto mt-32 max-w-sm bg-primaryDark">
       <h1 className="text-lg">Grocery Cart</h1>
       <ul className="flex flex-wrap">
         {cart.map((item, index) => (
-          <li className="m-1 cursor-pointer rounded-sm bg-secondary p-1 text-primary" onClick={() => removeItem(index)} key={index}>
+          <li
+            className="m-1 cursor-pointer rounded-sm bg-secondary p-1 text-primary"
+            onClick={() => removeItem(index)}
+            key={index}>
             {item}
           </li>
         ))}

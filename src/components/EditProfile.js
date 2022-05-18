@@ -17,7 +17,7 @@ export default function EditProfile() {
   };
 
   return (
-    <div className="rounded-sm bg-slate-800 p-2">
+    <div className="mx-auto mt-32 max-w-lg rounded-sm bg-slate-800 p-2">
       <form onSubmit={handleSubmit} className="flex flex-col text-white">
         <input
           className="m-1 rounded-sm border border-secondary bg-primaryDark p-1 outline-none"

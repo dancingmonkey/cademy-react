@@ -25,9 +25,9 @@ export default function Shop() {
   }
 
   return (
-    <div>
+    <div className="mx-auto mt-32 max-w-lg">
       <h1 className="pb-4 text-xl font-bold">{`Clothes 'n Things`}</h1>
-      <nav className="flex justify-between pb-4">
+      <nav className="flex justify-left pb-4">
         {categories.map(category => (
           <button
             key={category}

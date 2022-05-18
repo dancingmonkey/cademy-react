@@ -16,7 +16,7 @@ export default function Timer() {
   const handleChange = ({ target }) => setName(target.value);
 
   return (
-    <div className="flex flex-col">
+    <div className="mx-auto mt-32 flex max-w-lg flex-col ">
       <h1>Time: {time}</h1>
       <input
         value={name}

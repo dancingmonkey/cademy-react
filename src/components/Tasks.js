@@ -21,7 +21,7 @@ export default function AppFunction() {
   };
 
   return (
-    <main className="rounded-sm bg-slate-800 p-4">
+    <main className="mt-32 mx-auto max-w-lg rounded-sm bg-slate-800 p-4">
       <h1 className="ml-2 text-xl">Tasks</h1>
       <NewTask
         newTask={newTask}
