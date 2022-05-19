@@ -1,5 +1,5 @@
 import React from 'react';
-import Welcome from './components/Welcome';
+// import Welcome from './components/Welcome';
 // import Tasks from './components/Tasks';
 // import GroceryCart from './components/GroceryCart';
 // import EditProfile from './components/EditProfile';
@@ -8,11 +8,12 @@ import Welcome from './components/Welcome';
 // import Forecast from './components/Forecast';
 // import Shop from './components/Shop';
 // import SocialNetwork from './components/SocialNetwork';
+import Parent from './components/Parent';
 
 const App = () => {
   return (
     <div className="mx-auto h-screen w-full text-white">
-      <Welcome />
+      {/* <Welcome /> */}
       {/* <Tasks /> */}
       {/* <GroceryCart /> */}
       {/* <EditProfile /> */}
@@ -21,6 +22,7 @@ const App = () => {
       {/* <Forecast /> */}
       {/* <Shop /> */}
       {/* <SocialNetwork /> */}
+      <Parent />
     </div>
   );
 };
