@@ -9,7 +9,8 @@ import React from 'react';
 // import Shop from './components/Shop';
 // import SocialNetwork from './components/SocialNetwork';
 // import Parent from './components/Parent';
-import GuineaPigsContainer from './containers/GuineaPigsContainer';
+// import GuineaPigsContainer from './containers/GuineaPigsContainer';
+import BookList from './components/BookList';
 
 const App = () => {
   return (
@@ -24,7 +25,8 @@ const App = () => {
       {/* <Shop /> */}
       {/* <SocialNetwork /> */}
       {/* <Parent /> */}
-      <GuineaPigsContainer />
+      {/* <GuineaPigsContainer /> */}
+      <BookList />
     </div>
   );
 };
