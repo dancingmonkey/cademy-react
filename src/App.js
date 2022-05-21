@@ -8,7 +8,8 @@ import React from 'react';
 // import Forecast from './components/Forecast';
 // import Shop from './components/Shop';
 // import SocialNetwork from './components/SocialNetwork';
-import Parent from './components/Parent';
+// import Parent from './components/Parent';
+import GuineaPigsContainer from './containers/GuineaPigsContainer';
 
 const App = () => {
   return (
@@ -22,7 +23,8 @@ const App = () => {
       {/* <Forecast /> */}
       {/* <Shop /> */}
       {/* <SocialNetwork /> */}
-      <Parent />
+      {/* <Parent /> */}
+      <GuineaPigsContainer />
     </div>
   );
 };
