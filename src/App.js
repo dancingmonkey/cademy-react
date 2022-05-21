@@ -1,5 +1,5 @@
 import React from 'react';
-// import Welcome from './components/Welcome';
+import Welcome from './components/Welcome';
 // import Tasks from './components/Tasks';
 // import GroceryCart from './components/GroceryCart';
 // import EditProfile from './components/EditProfile';
@@ -10,12 +10,13 @@ import React from 'react';
 // import SocialNetwork from './components/SocialNetwork';
 // import Parent from './components/Parent';
 // import GuineaPigsContainer from './containers/GuineaPigsContainer';
-import BookList from './components/BookList';
+// import BookList from './components/BookList';
+// import Input from './components/Input';
 
 const App = () => {
   return (
     <div className="mx-auto h-screen w-full text-white">
-      {/* <Welcome /> */}
+      <Welcome />
       {/* <Tasks /> */}
       {/* <GroceryCart /> */}
       {/* <EditProfile /> */}
@@ -26,7 +27,8 @@ const App = () => {
       {/* <SocialNetwork /> */}
       {/* <Parent /> */}
       {/* <GuineaPigsContainer /> */}
-      <BookList />
+      {/* <BookList /> */}
+      {/* <Input /> */}
     </div>
   );
 };
